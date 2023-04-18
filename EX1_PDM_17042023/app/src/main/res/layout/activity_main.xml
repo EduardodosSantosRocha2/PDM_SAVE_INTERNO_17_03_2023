@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#00ff04"
+        android:background="#620472"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <EditText
+
+            android:id="@+id/editText01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:gravity="center"
+            android:hint="Primeiro valor: "
+            android:textColor="#00ff04"
+            android:layout_margin="40dp"
+            />
+
+
+        <EditText
+
+            android:id="@+id/editText02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:hint="Segundo valor: "
+            android:textColor="#00ff52"
+            android:layout_margin="30dp"
+            />
+
+
+
+
+
+
+        <TextView
+
+            android:id="@+id/textView02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="40dp"
+            android:gravity="center"
+            android:hint=" "
+            android:textColor="#00ff04"
+            android:textSize="20sp" />
+
+
+        <Button
+
+            android:id="@+id/button01"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Somar"
+            android:textColor="#00ff04"
+            android:onClick="Soma"
+            />
+
+        <Button
+
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Subtrair"
+            android:textColor="#00ff04"
+            android:onClick="Subtrair"
+            />
+
+
+        <Button
+
+            android:id="@+id/button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Multiplicar"
+            android:textColor="#00ff04"
+            android:onClick="Multiplicar"
+            />
+
+
+        <Button
+
+            android:id="@+id/button04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Dividir"
+            android:textColor="#00ff04"
+            android:onClick="Dividir"
+            />
+
+
+
+        <Button
+
+            android:id="@+id/button05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mostrar"
+            android:textColor="#00ff04"
+            android:onClick="Mostrar"
+            />
+
+
+        <Button
+
+            android:id="@+id/button06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Limpar historico"
+            android:textColor="#00ff04"
+            android:onClick="Clear"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
